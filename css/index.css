@@ -59,47 +59,25 @@ header a:hover {
   font-weight: bold;
 }
 
-.details {
+.details .row {
   margin-top: 80px;
 }
 
-.details-top h1 {
+.details h1 {
   font-weight: bold;
   color: #415264;
   margin-bottom: 60px;
+  font-size: 70px;
 }
 
-.details-top p {
-  padding-bottom: 15px;
-}
-
-.details-top img {
-  width: 100%;
-  height: 400px;
-}
-
-.details-top .details-left p {
-  width: 350px;
-}
-
-.details .details-right {
-  text-align: right;
-}
-
-.details-top .details-right p {
-  width: 500px;
-  text-align: right;
+.details p {
+  font-size: 20px;
 }
 
 .details a {
   font-weight: bold;
+  font-size: 18px;
   color: #5492d4;
-}
-
-.details .line {
-  width: 112px;
-  border-bottom: 3px solid #5492d4;
-  margin-left: 15px;
 }
 
 .details a:hover {
@@ -114,4 +92,28 @@ header a:hover {
   font-weight: bold;
   width: 200px;
   height: 50px;
+}
+
+.details .line {
+  width: 112px;
+  border-bottom: 3px solid #5492d4;
+  margin-left: 15px;
+}
+
+.details p {
+  padding-bottom: 15px;
+}
+
+.details img {
+  object-fit: cover;
+  width: 90%;
+  height: 500px;
+}
+
+.details .details-left p {
+  width: 350px;
+}
+
+.details .details-right p {
+  width: 500px;
 }

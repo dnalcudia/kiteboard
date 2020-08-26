@@ -1,0 +1,117 @@
+.home {
+  width: 100%;
+  background-image: url(/img/uniqsurface-xvjpZDHoEAo-unsplash.jpg);
+  background-size: cover;
+  background-position: center top;
+  height: 100vh;
+}
+
+header {
+  padding-top: 24px;
+}
+
+header .container .row {
+  display: flex;
+  align-items: center;
+}
+
+header .container .row nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+header a {
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 5px 5px 5px #0000004f;
+  color: white;
+  font-weight: 600;
+}
+
+header .row .col-12 {
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+header nav a {
+  font-size: 16px;
+}
+
+header a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.home-main-container {
+  padding-top: 235px;
+}
+
+.home .home-title {
+  font-size: 140px;
+  text-shadow: 5px 5px 5px #0000004f;
+  font-weight: bold;
+  color: white;
+}
+
+.home .home-subtitle {
+  color: white;
+  font-size: 70px;
+  text-shadow: 5px 5px 5px #0000004f;
+  font-weight: bold;
+}
+
+.details {
+  margin-top: 80px;
+}
+
+.details-top h1 {
+  font-weight: bold;
+  color: #415264;
+  margin-bottom: 60px;
+}
+
+.details-top p {
+  padding-bottom: 15px;
+}
+
+.details-top img {
+  width: 100%;
+  height: 400px;
+}
+
+.details-top .details-left p {
+  width: 350px;
+}
+
+.details .details-right {
+  text-align: right;
+}
+
+.details-top .details-right p {
+  width: 500px;
+  text-align: right;
+}
+
+.details a {
+  font-weight: bold;
+  color: #5492d4;
+}
+
+.details .line {
+  width: 112px;
+  border-bottom: 3px solid #5492d4;
+  margin-left: 15px;
+}
+
+.details a:hover {
+  text-decoration: none;
+}
+
+.details button {
+  background-color: white;
+  border: 1px solid #415264;
+  outline: none;
+  color: #5492d4;
+  font-weight: bold;
+  width: 200px;
+  height: 50px;
+}

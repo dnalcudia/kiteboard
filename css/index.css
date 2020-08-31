@@ -1,6 +1,6 @@
 .home {
   width: 100%;
-  background-image: url(/img/uniqsurface-xvjpZDHoEAo-unsplash.jpg);
+  background-image: url('../img/uniqsurface-xvjpZDHoEAo-unsplash.jpg');
   background-size: cover;
   background-position: center top;
   height: 100vh;
